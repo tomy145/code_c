@@ -1,0 +1,14 @@
+#include<stdio.h>
+
+int main(void)
+{
+    int arr[3] = {7,100,27};
+    int arraySize = sizeof(arr) / sizeof(int);
+    int i = 0;
+    for(i = 0;i < arraySize; i++)
+    {
+        int num = arr[i];
+        printf("num = %d , %x , %f\n",num,num,num);
+    }
+    return 0;
+}

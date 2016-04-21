@@ -1,0 +1,17 @@
+/*************************************************************************
+	> File Name: print.c
+	> Author: 
+	> Mail: 
+	> Created Time: 日  4/17 15:09:30 2016
+ ************************************************************************/
+
+#include<stdio.h>
+
+int main(void)
+{
+    printf("hello world!\n");
+    printf("hello world! -- %d\n",10);
+    printf("----- %20.4s\n","hello world ");
+    return 0;
+}
+
