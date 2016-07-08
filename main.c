@@ -1,24 +1,26 @@
+//
+//  main.c
+//  tempo
+//
+//  Created by Mac on 16/5/11.
+//  Copyright © 2016年 Mac. All rights reserved.
+//
+
 #include <stdio.h>
-#include <string.h>
-
-int main(void)
-{
-	// char *c = "s";
-
-	// char ch[20] = "sbdsjdkdnsjdjdl2nsjd";
+#include "my_String.h"
 
 
-	// char *token = strtok(ch,c);
-
-	// while(token != NULL)
-	// {
-	// 	printf("token --- %s\n",token);
-	// 	token = strtok(NULL,c);
-	// }
-
-int a = 10, b = 29, c = 20;
-
-    printf("%d,%d,%d\n",a+b,a * b,a + c);
-
-	return 0;
-}
+//int main(int argc, const char * argv[])
+//{
+//
+//    char buf[4] = "123";
+//    char *src = "1234";
+//
+////    printf("-- %s\n",my_Strcpy(buf, src));
+//
+//    printf("-- %d\n",my_StrCmp(buf, src));
+//
+//   
+//    return 0;
+//}
+//
